@@ -1,0 +1,571 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #ebdede;
+}
+p{
+    font-size: 18px;
+}
+
+/* Header-Start */
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/image/a1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* Nav-Start */
+
+nav{
+    width: 100%;
+    height: 70px;
+    background: rgb(99, 87, 87);
+    opacity: .9;
+}
+nav label{
+    font-size: 32px;
+    line-height: 70px;
+    margin-left: 40px;
+    color: orangered;
+}
+nav label span{
+    color: #fff;
+    transition: all ease .9s;
+}
+
+nav label:hover span{
+    color: orangered;
+}
+nav ul{
+    float: right;
+    display: flex;
+}
+nav ul li{
+   line-height: 70px;
+   padding: 0 10px;
+   margin-right: 10px; 
+   list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+    transition: all ease .9s;
+}
+li a:hover{
+    color: orangered;
+}
+
+/* Nav-End */
+
+/* Banner-data-Start */
+
+.banner-data{
+    display: flex;
+}
+.banner-heading{
+    height: 200px;
+    align-items: center;
+    text-align: justify;
+    margin-top: 150px;
+    margin-left: 310px;
+    color: #000;
+}
+.banner-heading h1{
+    font-size: 42px;
+}
+.banner-heading p{
+    width: 500px;
+}
+.banner-heading button{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: #d29710;
+    transition: all ease-in .9s;
+}
+.banner-heading button:hover{
+    background-color: orangered;
+    color: #000;
+}
+.banner-data img{
+    width: 400px;
+    height: 400px;
+    border: 1px solid#000;
+    border-radius: 50%;
+    margin-left: 750px;
+    margin-top: 90px;
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    animation: myfirst 9.5s infinite linear ;
+}
+@keyframes myfirst{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/* Banner-data-End */
+
+/* Header-End */
+
+/* Main-Start*/
+
+/* Section-a1-Start */
+
+.service{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.service-item{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    transition: all ease .5s;
+    border: 1px solid#000;
+    border-radius: 8px;
+}
+.service-item h4{
+    color: #000;
+}
+.service-item:hover h4{
+    color: #fff;
+} 
+.service-item .service-body{
+    margin: 10px;
+}
+.service-item i{
+    font-size: 25px;
+    color: #d29710;
+    padding-bottom: 20px;
+}
+.service-item:hover{
+    background: #d29710;
+    color: #fff;
+}
+.service-item:hover i {
+    color: #fff;
+}
+
+/* Section-a1-End */
+
+
+/* Section-a2-Start */
+
+.about-us{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    height: 55vh;
+}
+.about-item img{
+    width: 300px;
+    height: 200px;
+}
+.about-item{
+    width: 50%;    
+    height: 200px;
+    margin-left: 50px;
+
+}
+.about-content{
+    margin-top: 75px;
+    margin-right: 50px;
+    justify-content: center;
+}
+.about-content h1 span{
+    color: #d29710;
+}
+.about-content h4{
+    color: #d29710;
+    font-size: 20px;
+}
+.box{
+    display: flex;
+}
+.box1{
+    display: flex;
+    width: 215px;
+    height: 50px;
+    margin-top: 20px;
+}
+.box1 h1{
+    padding-right: 5px;
+    border-left: 5px solid#d29710;
+    font-size: 50px;
+    color: #d29710;
+    padding-right: 15px;
+}
+.box1 p{
+    padding-top: 7px;
+}
+
+.about-content button{
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #d29710;
+    border: 1px solid#d29710;
+    transition: all ease .9s;
+}
+.about-content button:hover{
+    background-color: #f0c258;
+    border: 1px solid#f0c258;
+}
+
+/* Section-a2-End */
+
+/* Section-a3-Start */
+
+.r1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.r1 h4{
+    color: #d29710;
+    font-size: 24px;
+}
+
+
+.r11{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.r11 h1{
+    font-size: 32px;
+}
+
+
+.boxa1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.boxa11{
+    display: flex;
+    justify-content: center;
+    margin: 0 50px;
+    width: 150px;
+    height: 50px;
+}
+.boxa11 i{
+    font-size: 36px;
+    color: #d29710;
+    padding: 0 10px 0 0;
+}
+
+.menu-package{
+    display: flex;
+    justify-content: center;
+}
+.menu-item{
+    margin: 30px;
+    width: 400px;
+}
+.menu-food{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-food img{
+    width: 15%;
+    height: 15%;
+}
+.menu-food-item{
+    width: 80%;
+}
+.menu-food-item p{
+    font-size: 13px;
+    padding: 10px 0;
+    color: #686868;
+}
+.menu-food-heading{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid#686868;
+    padding: 10px 0;
+}
+.menu-food-heading h5{
+    color: #FEA116;
+}
+
+/* Section-a3-End */
+
+/* Section-a4-Start */
+
+.rudra1{
+    display: flex;
+    justify-content: center;
+    margin: 50px 100px;
+    background: #393737;
+}
+.rudra11{
+    width: 50%;
+    height: 371px;
+}
+.rudra11 video{
+    width: 100%;
+}
+.k-1{
+    padding: 30px;
+}
+.k-1 p{
+    color: #d29710;
+    font-size: 22px;
+}
+.k-1 h1{
+    font-size: 36px;
+}
+.k--1{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.k--1 input{
+    width: 280px;
+    height: 30px;
+}
+.k--1 select{
+    width: 283px;
+    height: 33px;
+}
+.k--1 textarea{
+    width: 575px;
+    height: 50px;
+}
+.k-1 button{
+    margin-top: 5px;
+    width: 576px;
+    height: 40px;
+    color: #fff;
+    background-color: #d29710;
+    border: none;
+    margin-left: 11px;
+    padding: 5px;
+}
+
+/* Section-a4-End */
+
+/* Section-a5-Start */
+
+/* Here in section a5 Class  "r1" and "r11" CSS was already in section a3 */
+.m-11{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    width: 300px;
+    height: 385px;
+    background-color: #fff;
+    margin: 50px 50px;
+    border-radius: 20px;
+}
+.card-item{
+    width: 100%;
+    height: 385px;
+    
+}
+.card-item img{
+    width: 80%;
+    height: 58.4%;
+    margin-top: 30px;
+    margin-left: 9%;
+    border-radius: 50%;
+    transition: all ease .9s;
+    overflow: hidden;
+}
+.card .card-item:hover img{
+    scale: 1.1;
+}
+.card-body{
+    margin-top: 15px;
+}
+.card-body h5{
+    text-align: center;
+}
+.card-body small{
+    text-align: center;
+    margin-left: 37.5%;
+}
+.m-1{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 25%;
+    width: 65%;
+
+    transition: all ease .9s;
+}
+.m-1 a{
+    text-decoration: none;
+    width: 20%;
+    border-radius: 20px 20px 0 0;
+    background-color: #d29710;
+    height: 58px;
+    margin: 0 5px 0 5px;
+}
+.m-1 a i{
+    margin: 18px 12px 10px 9px;
+    font-size: 25px;
+    color: #fff;
+}
+
+/* Section-a5-End */
+
+/* Section-a6-Start */
+
+.m-11{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.cards{
+    margin: 10px;
+    width: 500px;
+    height: 200px;
+    background-color: #fff;
+    border: 1px solid#fff;
+    border-radius: 20px;
+    padding: 0 0 10px 0;
+}
+.cards-item{
+    padding: 10px;
+}
+.cards-item i{
+    font-size: 30px;
+    color: #d29710;
+}
+.cards-heading{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cards-heading img{
+    width: 60px;
+    border-radius: 50%;
+}
+.cards-heading .n-1{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.n-1 h5{
+    margin-top: 8px;
+    font-size: 20px;
+}
+.n-1 p{
+    margin-top: 8px;
+}
+
+/* Section-a6-End */
+
+/* Main-End */
+
+/* Footer-Start */
+
+.h---1{
+    width: 100%;
+    background-color: #393737;
+    height: 300px;
+}
+.h---1 hr{
+    width: 95%;
+    margin-left: 2.5%;
+}
+.main{
+    width: 100%;
+    height: 70%;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.h--1 h5{
+    font-size: 24px;
+    color: #d29710;
+}
+.h--1 h6{
+    font-size: 24px;
+    color: #fff;
+}
+.h--1 a{
+    margin-top: 20px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+.h--1 p{
+    width: 250px;
+    color: #fff;
+}
+.c2 i{
+    border: 1px solid#fff;
+    background-color: #393737;
+    color: #fff;
+    margin: 10px 0 0 0;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.c1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 30px;
+}
+.c1 a i{
+    padding-bottom: 15px;
+}
+.h--1 input{
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+}
+.h--1 button{
+    background-color: #d29710;
+    border: none;
+    color: #fff;
+    width: 80px;
+    height: 32px;
+}
+
+.a101{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 2.5% 0 2.5%;
+}
+.a101 p{
+    color: #fff;
+}
+.a101 p span{
+    text-decoration: underline;
+}
+.a1001 a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0 0 10px;
+}
+
+
+
+/* Footer-End */
